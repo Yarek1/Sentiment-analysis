@@ -7,12 +7,12 @@ Firstly load data from amazon datasets, there are no NA values.
 At the beginning we can see time is in Unix type, but change to universal time.
 (Unix time (also known as Epoch time, POSIX time,[1] seconds since the Epoch,[2] or UNIX Epoch time[3]) is a system for describing a point in time.
 It is the number of seconds that have elapsed since the Unix epoch, minus leap seconds; the Unix epoch is 00:00:00 UTC on 1 January 1970.)
-Most of reviews is positive and write in between 2005-2009 year.
+Most of reviews is positive and wrote between 2005-2009 year.
 
-After first look and preprocessing, data was used to recommendation analysis. Not only review score is important, also amount of reviews is too.
+After preprocessing, data was used to recommendation analysis. Not only review score is important but also amount of reviews.
 It's because review can have score 5, but have only one opinion. Importance of review is check by ratio of likes to likes+dislikes.
 
-In next part is analysis of amount of words in review and most used words in opinion. From the set of words in all opinions I removed "stopwords".
+In next part is analysis of amount of words in review and most used words in opinion. From the set of all opinions words was removed "stopwords".
 This is collection of 100 most used words in english language. It can be import from nltk library.
 
 At the end there is comparision of accuaracy of logistic regression solvers:
