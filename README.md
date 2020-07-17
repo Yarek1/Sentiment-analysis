@@ -1,7 +1,10 @@
 # Sentiment-analysis
 This project is about analysis of cellphones and accessories reviews.
+
+One of the most important fields of NLP is sentiment analysis. Sentiment analysis is the process of unearthing or mining meaningful patterns from text data. Sentiment analysis can help us attain the attitude and mood of the wider public which can then help us gather insightful information about the context. This can then help us predict and make accurate calculated decisions that are based on large sample sets.
+
 Firstly load data from amazon datasets, there are no NA values.
-After first look we can see time is in Unix type, but change to universal time.
+At the beginning we can see time is in Unix type, but change to universal time.
 (Unix time (also known as Epoch time, POSIX time,[1] seconds since the Epoch,[2] or UNIX Epoch time[3]) is a system for describing a point in time.
 It is the number of seconds that have elapsed since the Unix epoch, minus leap seconds; the Unix epoch is 00:00:00 UTC on 1 January 1970.)
 Most of reviews is positive and write in between 2005-2009 year.
